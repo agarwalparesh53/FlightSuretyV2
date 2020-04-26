@@ -28878,10 +28878,199 @@
       "links": {},
       "address": "0x345cA3e014Aaf5dcA488057592ee47305D9B3e10",
       "transactionHash": "0xd33cfcef8af854ae143acd0aae34df1568fc6a15563f8c4c6a326ce222923661"
+    },
+    "1587926517640": {
+      "events": {
+        "0x66fed4c377331ab0614602ea289bafa17eb0d2dc2c777880187554cb41e86965": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "approvingAirline",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "approved",
+              "type": "bool"
+            }
+          ],
+          "name": "AIRLINE_APPROVED",
+          "type": "event"
+        },
+        "0x0872d1bd5adc4825d5dd7dfe9422b1f3afaeb7058b8b408af16d478d55a17486": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            }
+          ],
+          "name": "AIRLINE_FUNDED",
+          "type": "event"
+        },
+        "0xd73dda126c284b57cf9a8cc206a506537e1cdcef4c6a37525cf1fb367248c303": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            }
+          ],
+          "name": "AIRLINE_REGISTERED",
+          "type": "event"
+        },
+        "0xa6daaeee9bdf2cc601540c66e0a72db374da1f25a4066b79e40ae7134729259b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "flightKey",
+              "type": "bytes32"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "timestamp",
+              "type": "uint256"
+            }
+          ],
+          "name": "FLIGHT_ADDED",
+          "type": "event"
+        },
+        "0x4b7a8f30bc6fc4dca25c71d2d89d56a9df3656509ce47afd5a4ec3c84470650d": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "flightKey",
+              "type": "bytes32"
+            },
+            {
+              "indexed": false,
+              "internalType": "bool",
+              "name": "late",
+              "type": "bool"
+            }
+          ],
+          "name": "FLIGHT_STATUS_UPDATED",
+          "type": "event"
+        },
+        "0x8f291a194aea4f5150c2a2b17db9930c3dcf46e01a857e9370db21ed0f140732": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "passengerAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "flightKey",
+              "type": "bytes32"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "PASSENGER_INSURANCE_CLAIMED",
+          "type": "event"
+        },
+        "0xf7c5d08024546d68ece05ba22a3bb5095fa25e59650fc303d330c4d501c7c3d7": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "passengerAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "airlineAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "flightKey",
+              "type": "bytes32"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "PASSENGER_INSURANCE_PURCHASED",
+          "type": "event"
+        },
+        "0xcda28c5d5049ef4d8f1e97b810b463dc19b5b2162b11d46eccaa5337e6a1a1dc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "passengerAddress",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "PASSENGER_PAYOUT",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x345cA3e014Aaf5dcA488057592ee47305D9B3e10",
+      "transactionHash": "0xd33cfcef8af854ae143acd0aae34df1568fc6a15563f8c4c6a326ce222923661"
     }
   },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-04-26T18:03:48.311Z",
+  "updatedAt": "2020-04-26T18:43:00.782Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {
