@@ -41,8 +41,8 @@ The app has 3 modules
 
 
 #### Screen shots
-!(oracle)[images/insurance app claimed.png]
-!(oracle response)[images/oracle_response.png]
-!(smart contract deploy)[images/smart_contract_deploy.png]
-!(app 1)[images/insurance app claimed.png]
-!(app 2)[images/insurance app purchased.png]
+!(oracle)[images/insurance_app_claimed.png]
+!(oracle_response)[images/oracle_response.png]
+!(smart_contract_deploy)[images/smart_contract_deploy.png]
+!(app1)[images/insurance_app_claimed.png]
+!(app2)[images/insurance_app_purchased.png]
